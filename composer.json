@@ -1,0 +1,17 @@
+{
+  "name": "battye/date-convert",
+  "description": "Convert a date string from one format to another.",
+  "keywords": ["date", "format", "php"],
+  "license": "MIT",
+  "require": {
+    "php": ">=5.3.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "battye\\date_convert\\": "src"
+    }
+  },
+  "require-dev": {
+    "symfony/phpunit-bridge": "^4.1"
+  }
+}
